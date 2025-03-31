@@ -6,7 +6,7 @@
 このレポジトリのホームディレクトリ配下で以下コマンドを実施してください。
 以下に記載の前提準備も必須です。
 
-```
+```sh
 $ python main.py \
     --csv_path {input/input.csv} \
     --value_column {"value"} \
