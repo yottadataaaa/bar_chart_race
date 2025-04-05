@@ -14,7 +14,7 @@ $ python main.py \
     --time_column {"date"}
 ```
 
-サポートしているpythonバージョンは `XX.XX.XX` です。
+サポートしているpythonバージョンは `3.11.10` です。
 
 実行時引数は以下です。
 
@@ -25,7 +25,7 @@ $ python main.py \
 |3|`--id_column`|str|◯|各バーの名前・IDに使う列名|
 |4|`--time_column`|str|◯|時系列のキー（日付や年）|
 |5|`--image_map_path`|str|✕|各バーに対応する画像ファイルパスを指定したJSONファイル|
-|6|`--color_map`|str|✕|各バーに対応する色を指定したJSONファイル|
+|6|`--color_map_path`|str|✕|各バーに対応する色を指定したJSONファイル|
 |7|`--width`|str|✕|動画の幅（デフォルト：1920）|
 |8|`--height`|str|✕|動画の高さ（デフォルト：1080）|
 |9|`--fps`|str|✕|フレームレート（デフォルト：30）|
